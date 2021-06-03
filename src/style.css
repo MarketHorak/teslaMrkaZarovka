@@ -41,9 +41,12 @@ header {
 }
 
 
-/* .gif{
+.gif {
+  width: 250px;
+
 background-image:url('img/images1.gif');
-} */
+background-size: contain;
+}
 
 
 /* .bulb {

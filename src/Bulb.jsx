@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-/* import './style.css'; */
+
 /* import  bulb-off from ('src/img/bulb-off.png'); 
  */
 
