@@ -1,29 +1,35 @@
 import { render } from 'react-dom';
 import './style.css';
 import React, { useState } from 'react';
-import Bulb from './Bulb';
-import obrazek from './img/images1.gif'
-{/* <img src={obrazek} /> */}
-/*  import img from '<img src="../img/images1.gif" alt=" "/>' 
- */
+
+/* import obrazek from './img/images1.gif' */
+import obrazek1 from './img/godel.png'
+import ruzova2 from  './img/ruzova2.svg'
+import Hra from './Hra/hra'
+
+
+
 
 const App = () => (
+/*   return ( */
   <div className="container">
     <header>
-      {/* <div className="logo"></div> */}
-    {/*   <div className="gif" ></div>  */}
-    <img src={obrazek} />
-      <h1>Toto je reakti zarovka od Tesly</h1>
+    <img src={obrazek1} className="kurt" />
+ {/*    <img src={obrazek} /> */}
+      <h1>ZKOUŠKOVA HRA
+        
+        UTRHCISLO
+      </h1>
     </header>
     <main>
-   
-  <Bulb/>
- 
+    <img src={ruzova2} className="bounce-in-top" />
+
+  <Hra />
     </main>
     <footer>
-      <p>Czechitas, Digitální akademie: Web</p>
+     
     </footer>
   </div>
-);
+  );
 
 render(<App />, document.querySelector('#app'));
